@@ -1,0 +1,20 @@
+<!-- <h1>Planets</h1> -->
+<!-- <div ng-repeat="planets in planets">
+  <button ng-click="getPlanet(planets)">{{planets.name}}</button>
+</div> -->
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Planets
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <div ng-repeat="planets in planets">
+      <button ng-click="getPlanet(planets)">{{planets.name}}</button>
+    </div>
+    <li role="separator" class="divider"></li>
+  </ul>
+</div>
+
+<swapi-planet id="1"></swapi-planet>
+<swapi-resident id="1"></swapi-resident>

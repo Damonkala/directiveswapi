@@ -9,3 +9,16 @@
 tr {
 	min-width: 360px;
 }
+
+.center{
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+.box{
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
