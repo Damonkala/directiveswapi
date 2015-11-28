@@ -9,6 +9,7 @@
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+  <h3 ng-hide='planets'>Loading</h3>
     <div ng-repeat="planets in planets">
       <button ng-click="getPlanet(planets)">{{planets.name}}</button>
     </div>
